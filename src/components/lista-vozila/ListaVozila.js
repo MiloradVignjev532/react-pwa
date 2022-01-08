@@ -24,6 +24,7 @@ const ListaVozila = () => {
 			method: "delete",
 		});
 		setDeleted(true);
+		console.log(res);
 	};
 
 	return vozila ? (

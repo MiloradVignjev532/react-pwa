@@ -35,6 +35,7 @@ const UnosVozila = () => {
 				"Content-Type": "application/json",
 			},
 		});
+		console.log(res);
 
 		navigate("/vozila");
 	};

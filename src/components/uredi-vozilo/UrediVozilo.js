@@ -58,6 +58,7 @@ const UrediVozilo = () => {
 				"Content-Type": "application/json",
 			},
 		});
+		console.log(res);
 	};
 	return (
 		<div className="forma">
